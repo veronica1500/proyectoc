@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>proyecto reto</h1>
+
+    <ul>
+        <li> <a href="{% url 'inicio' %}">INICIO</a></li>
+        <li><a href="{% url 'servicios' %}">SERVICIOS</a></li>
+        <li><a href="{% url 'datos' %}">DATOS</a></li>
+        <li><a href="{% url 'contactos' %}">CONTACTOS</a></li>
+    </ul>
+
+    {% block content %}
+
+    {% endblock %}
+</body>
+</html>
